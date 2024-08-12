@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-img img {
+  width: 40%;
+}
+
+.logo-img {
+  width: 20%;
+}
+
+.header-list {
+  width: 80%;
+}
+
+.header-list ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  align-items: center;
+}
+
+.header-list ul li {
+  /* width: 500%; */
+}
+
+.header-list ul li a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: black;
+  /* padding-inline: 5em; */
+}
+
+.sqi-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+header {
+  border: 2px solid #f2f1ed;
+  padding-block: 0.5%;
+  position: fixed;
+  width: 100%;
+  padding-inline: 10%;
+  background-color: white;
+  z-index: 1;
+}
+
+.about-parent {
+  position: relative;
+  display: inline-block;
+}
+
+.about-drop {
+  background-color: #ffffff;
+}
+
+.about-parent .about-drop {
+  position: absolute;
+  padding-top: 2.5em;
+  display: none;
+  width: 10em;
+  align-items: center;
+}
+
+.about-parent .about-drop ul {
+  border-top: solid medium #000b3f;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding-top: 1em;
+}
+
+.about-drop li {
+  padding-bottom: 1em;
+  padding-inline: 1.5em;
+  background-color: white;
+}
+
+.about-parent:hover > .about-drop {
+  display: block;
+}
+
+.programmes-parent {
+  position: relative;
+}
+
+.programmes-drop {
+  background-color: white;
+}
+
+.programmes-drop li {
+  padding-bottom: 1em;
+  padding-inline: 2em;
+  background-color: white;
+}
+
+.programmes-parent .programmes-drop {
+  position: absolute;
+  flex-direction: column;
+  padding-top: 2.5em;
+  display: none;
+  width: 15em;
+  line-height: 1em;
+}
+
+.programmes-parent .programmes-drop ul {
+  border-top: solid medium #000b3f;
+  flex-direction: column;
+  padding-top: 1em;
+}
+
+.programmes-parent:hover > .programmes-drop {
+  display: block;
+}
+
+.admissions-parent {
+  position: relative;
+}
+
+.admissions-drop {
+  background-color: #ffffff;
+}
+
+.admissions-parent .admissions-drop {
+  position: absolute;
+  flex-direction: column;
+  padding-top: 2.5em;
+  display: none;
+  width: 10em;
+  /* line-height: 1em; */
+}
+
+.admissions-parent .admissions-drop ul {
+  border-top: solid medium #000b3f;
+  flex-direction: column;
+  align-items: start;
+  width: 15em;
+  background-color: white;
+  padding-top: 1em;
+}
+
+.admissions-drop li {
+  padding-bottom: 1em;
+  padding-inline: 2em;
+  background-color: white;
+}
+
+.admissions-parent:hover > .admissions-drop {
+  display: block;
+}
+
+.portal-parent {
+  position: relative;
+}
+
+.portal-drop {
+  background-color: white;
+}
+
+.portal-parent .portal-drop {
+  position: absolute;
+  flex-direction: column;
+  padding-top: 2.5em;
+  display: none;
+  width: 10em;
+  line-height: 1em;
+}
+
+.portal-parent .portal-drop ul {
+  border-top: solid medium #000b3f;
+  flex-direction: column;
+  padding-top: 1em;
+}
+
+.portal-drop li {
+  padding-bottom: 1em;
+  padding-inline: 2em;
+  background-color: white;
+}
+
+.portal-parent:hover > .portal-drop {
+  display: block;
+}
+
+i {
+  margin: 0.2em;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.registration-div img {
+  padding-top: 7%;
+  position: relative;
+  width: 100%;
+}
+
+.registration-div {
+  background-image: linear-gradient(
+      180deg,
+      rgba(150, 105, 97, 0.67) 0%,
+      rgba(2, 0, 76, 0.84) 100%
+    ),
+    url(../images/header.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+
+.registration-text {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+
+.registration-text h1 {
+  text-align: right;
+  font-size: 3em;
+  color: white;
+}
+
+.registration-text p {
+  text-align: right;
+  color: white;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+  transition: all 0.5s;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E");
+}
+.accordion-button::after {
+  transition: all 0.5s;
+}
+
+.faq-div {
+  margin-top: 6%;
+  width: 80%;
+  margin-inline: auto;
+}
+
+.footer-div div {
+  width: 20%;
+}
+
+.footer-div {
+  padding-top: 5em;
+  padding-bottom: 3em;
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  width: 80%;
+  margin-inline: auto;
+  margin-top: 10%;
+}
+
+.quick-links ul {
+  list-style: none;
+  line-height: 3em;
+}
+
+.quick-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-div h3 {
+  font-size: 100%;
+  padding-bottom: 1.5em;
+}
+
+.footer-div p {
+  font-size: 90%;
+  line-height: 1.7em;
+}
+
+.footer-div b {
+  padding-block: 2em;
+}
+
+.copyright-div {
+  background-color: #050044;
+  padding-top: 1em;
+}
+
+.copyright-div p {
+  color: white;
+  width: 80%;
+  margin-inline: auto;
+  font-size: 90%;
+}
+
+.we-sqi h3 {
+  color: blue;
+}
+
+.social-sticky {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: white;
+  background-color: blue;
+  border-bottom-right-radius: 5px;
+}
+
+.fb-icon {
+  background-color: #324b85;
+  width: 100%;
+}
+
+.fb-icon a {
+  border-top-right-radius: 5px;
+  text-decoration: none;
+}
+
+.social-sticky i {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  padding-left: 1.2rem;
+  color: #fff;
+  border-radius: inherit;
+}
+
+.twitter-icon {
+  background-color: #0092cc;
+}
+
+.linkedin-icon {
+  background-color: #0f699b;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  left: 5%;
+  top: 90%;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: white;
+  background-color: green;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bi-whatsapp {
+  color: #fff;
+  font-size: 2em;
+}

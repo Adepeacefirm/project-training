@@ -1,0 +1,206 @@
+@media(max-width: 1040px) {
+    .header-list ul {
+        gap: 1em;
+    }
+}
+
+@media(max-width: 1025px) {
+    .social-sticky{
+        display: none;
+    }
+}
+
+@media(max-width: 981px){
+    .header-list{
+        display: none;
+    }
+
+    .sqi-header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fa-bars{
+        display: block;
+    }
+
+    .hero-div{
+        flex-direction: column;
+        gap: 0em;
+    }
+
+    .hero-study{
+        width: 100%;
+    }
+
+    .hero-study h1{
+        padding-top: 10%;
+        font-size: 400%;
+        font-weight: 500;
+    }
+
+    .nid-div{
+        grid-template-columns: 1fr;
+    }
+
+    .nid{
+        padding-bottom: 2%;
+    }
+
+    .cert{
+        padding-bottom: 2%;
+    }
+
+    .prof{
+        padding-bottom: 2%;
+    }
+
+    .services p{
+        line-height: 0.01em;
+    }
+
+    .courses-div{
+        flex-direction: column;
+        /* width: 100%; */
+        
+    }
+
+    .software-eng{
+        width: 80vw;
+    }
+
+    .product-des{
+        width: 80vw;
+    }
+
+    .data-section{
+        width: 80vw;
+    }
+
+    .partners{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills{
+        grid-template-columns: 1fr;
+        width: 70vw;
+        margin-left: 0;
+    }
+
+    .why-div{
+        flex-direction: column;
+    }
+
+    .why-img img{
+        width: 100%;
+        height: 50%;
+    }
+
+    .why-img{
+        width: 100%;
+    }
+
+    .why-text{
+        width: 100%;
+    }
+
+    .questions-div{
+        flex-direction: column;
+        gap: 0em;
+    }
+
+    .faq-div{
+        width: 100%;
+    }
+
+    .how-div{
+        width: 100%;
+    }
+
+    .latest-second{
+        flex-direction: column;
+    }
+
+    .matric {
+        width: 80vw;
+    }
+
+    .commissioner{
+        width: 80vw;
+    }
+    
+    .admission{
+        width: 80vw;
+    }
+
+    .footer-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-div div{
+        width: 100%;
+    }
+
+    .tour-div{
+        flex-direction: column;
+        gap: 0em;
+        height: ;
+    }
+
+    .tour-take{
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .tour-take h2{
+        font-size: 2em;
+    }
+
+    .tour-take p{
+        /* text-align: start; */
+    }
+
+    .tour-take button{
+        margin-block: 0;
+    }
+}
+
+@media(max-width: 937px){
+    .ola1{
+        display: none;
+    }
+}
+
+@media(max-width: 767px){
+    .alumni{
+        display: none;
+    }
+
+    .partners{
+        display: none;
+    }
+}
+
+@media(max-width: 637px){
+    .stars-div{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 479px){
+    .footer-div{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 400px){
+    iframe{
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .testi-div h2{
+        font-size: 2em;
+    }
+}

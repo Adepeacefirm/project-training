@@ -1,0 +1,47 @@
+@media(max-width: 1040px) {
+    .header-list ul {
+        gap: 1em;
+    }
+}
+
+@media(max-width: 1025px) {
+    .social-sticky{
+        display: none;
+    }
+}
+
+@media (max-width: 981px) {
+  .header-list {
+    display: none;
+  }
+
+  .sqi-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  .footer-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .footer-div div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 504px) {
+    .registration-text h1{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 479px) {
+  .footer-div {
+    grid-template-columns: 1fr;
+  }
+}
