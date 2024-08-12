@@ -74,4 +74,12 @@
     .footer-div{
         grid-template-columns: 1fr;
     }
+
+    .logo-img {
+        width: 40%;
+      }
+    
+      .hero-study h1 {
+        font-size: 220%;
+      }
 }
